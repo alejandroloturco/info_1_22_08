@@ -1,0 +1,39 @@
+#ejercicio 1
+a=float(input('ingrese un valor para A: '))
+b=float(input('ingrese un valor para B: '))
+if a<b:
+    print(f"{a} es menor a {b}")
+elif a>b:
+    print(f"{a} es mayor a {b}")
+else:
+    print(f"{a} es igual a {b}")
+
+#ejercicio 2
+nota_1=float(input("ingrese la primera nota: "))
+nota_2=float(input("ingrese la segunda nota: "))
+nota_3=float(input("ingrese la tercera nota: "))
+nota_4=float(input("ingrese la cuarta nota: "))
+nota_5=float(input("ingrese la quinta nota: "))
+if  0 <= nota_1 <=5 and 0 <= nota_2 <=5 and 0 <= nota_3 <=5 and 0 <= nota_4 <=5 and 0 <= nota_5 <=5:
+    nota_1*=0.3
+    nota_2*=0.15
+    nota_3*=0.15
+    nota_4*=0.2
+    nota_5*=0.2
+    nota_f= nota_1 + nota_2 + nota_3 + nota_4 + nota_5
+    if nota_f >=3:
+        print(f"aprobado:  {nota_f}" )
+    else:
+        print(nota_f)
+else: 
+    print("ingrese valores entre 0 y 5")
+
+#ejercicio 3
+y=float(input("ingrese un valor para Y: "))
+z=float(input("ingrese un valor para Z: "))
+if y > z:
+    print("x=1")
+elif y == z:
+    print("x=2")
+elif y < z:
+    print("x=3")
