@@ -1,0 +1,9 @@
+#ejercicio 3
+y=float(input("ingrese un valor para Y: "))
+z=float(input("ingrese un valor para Z: "))
+if y > z:
+    print("x=1")
+elif y == z:
+    print("x=2")
+elif y < z:
+    print("x=3")
