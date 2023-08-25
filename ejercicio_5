@@ -1,0 +1,7 @@
+#ejercicio 5
+num_inscripcion=int(input("Ingrese su numero de inscripcion correspondiente: "))
+name=input("ingrese su nombre y apellidos: ")
+patrimonio=int(input("ingrese su patrimonio, sin comas ni puntos: "))
+estrato=int(input("ingrese el estrato socio economico al que pertenece: "))
+if patrimonio > 2000000 and estrato > 3:
+    matricula=50000+(patrimonio*0.03)
