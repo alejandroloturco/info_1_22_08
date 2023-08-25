@@ -1,1 +1,9 @@
-
+#ejercicio 1
+a=float(input('ingrese un valor para A: '))
+b=float(input('ingrese un valor para B: '))
+if a<b:
+    print(f"{a} es menor a {b}")
+elif a>b:
+    print(f"{a} es mayor a {b}")
+else:
+    print(f"{a} es igual a {b}")
