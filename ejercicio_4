@@ -1,0 +1,20 @@
+#ejercicio 4
+A=int(input("ingrese un valor para A: "))
+B=int(input("ingrese un valor para B: "))
+C=int(input("ingrese un valor para C: "))
+if A == B or B == C or A == C:
+    print("ingrese valores distintos")
+elif A < B and B<C:
+    print(C,B,A)
+elif A >B and B>C:
+    print(A,B,C )
+elif A < C and C < B:
+    print(B,C,A)
+elif C < A and A < B:
+    print(B,A,C)
+elif A > C and C > B:
+    print(A,C,B)
+elif B > A and  A > C:
+    print(B,A,C)
+elif C > A and A > B:
+    print(C,A,B)
