@@ -1,0 +1,33 @@
+#ejercicio 9
+a=float(input('ingrese el primer valor a ser analizado: '))
+b=float(input('ingrese el segundo valor a ser analizado: '))
+c=float(input('ingrese el tercero valor a ser analizado: '))
+d=float(input('ingrese el cuarto valor a ser analizado: '))
+if a > b and a > c and a > d:
+    if b < a and b < c and b < d:
+        print(b+a)
+    elif c < b and c < a and c < d:
+        print(c+a)
+    elif d < b and d < c and d < a:
+        print(d+a)
+elif b > a and b > c and b > d:
+    if a < b  and a < c and a < d:
+        print(a+b)
+    elif c < b and c < a and c < d:
+        print(c+b)
+    elif d < b and d < c and d < a:
+        print(d+b)
+elif c > b and c > a and c > d:
+    if a < b  and a < c and a < d:
+        print(a+c)
+    elif b < a and b < c and b < d:
+        print(b+c)
+    elif d < b and d < c and d < a:
+        print(d+c)
+elif d > b and d > c and d > a:
+    if a < b  and a < c and a < d:
+        print(a+d)
+    elif b < a and b < c and b < d:
+        print(b+d)
+    elif c < b and c < a and c < d:
+        print(c+d)
