@@ -1,0 +1,17 @@
+m_esfera1=float(input("ingrese el valor de la masa para la esfera 1: "))
+m_esfera2=float(input("ingrese el valor de la masa para la esfera 2: "))
+m_esfera3=float(input("ingrese el valor de la masa para la esfera 3: "))
+v_esfera1=float(input("ingres el valor del volumen pra la esfera 1: "))
+v_esfera2=float(input("ingres el valor del volumen pra la esfera 2: "))
+v_esfera3=float(input("ingres el valor del volumen pra la esfera 3: "))
+d_esfera1=m_esfera1/v_esfera1
+d_esfera2=m_esfera2/v_esfera2
+d_esfera3=m_esfera3/v_esfera3
+if d_esfera3 > d_esfera2 and d_esfera3 > d_esfera2:
+    print('la esfera 3 posee la mayor densidad')
+elif d_esfera2 > d_esfera1 and d_esfera2 > d_esfera3:
+    print('la esfera 2 posee la mayor densidad')
+elif d_esfera1 > d_esfera2 and d_esfera1 > d_esfera3:
+    print('la esfera 1 posee la mayor densidad')
+elif d_esfera1 == d_esfera2 or d_esfera1 == d_esfera3 or d_esfera2 == d_esfera3:
+    print('dos o mas esferas tienen el mismo valor para la densidad')
