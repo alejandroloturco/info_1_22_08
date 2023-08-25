@@ -1,3 +1,0 @@
-x=holi
-ptiny("x"
-      
