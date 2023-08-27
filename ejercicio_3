@@ -1,4 +1,8 @@
-#ejercicio 3
+#Escribir un algoritmo que calcule y muestre el valor de X de acuerdo a losiguiente:
+#X = 1 si Y > Z
+#X = 2 si Y = Z
+#X = 3 si Y < Z
+
 y=float(input("ingrese un valor para Y: "))
 z=float(input("ingrese un valor para Z: "))
 if y > z:
