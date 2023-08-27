@@ -1,4 +1,5 @@
-#ejercicio 1
+#Hacer  un  algoritmo  que,  dados  dos  valores  numéricos  A  y  B,  escriba  unmensaje diciendo si A es mayor, menor o igual a B
+
 a=float(input('ingrese un valor para A: '))
 b=float(input('ingrese un valor para B: '))
 if a<b:
