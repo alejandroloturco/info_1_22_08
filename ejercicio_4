@@ -1,4 +1,5 @@
-#ejercicio 4
+#Dados los datos A, B y C que representan números enteros diferentes,construir un algoritmo para escribir estos números en forma descendente
+
 A=int(input("ingrese un valor para A: "))
 B=int(input("ingrese un valor para B: "))
 C=int(input("ingrese un valor para C: "))
