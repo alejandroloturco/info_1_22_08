@@ -1,4 +1,5 @@
-#ejercicio 9
+#Hacer un algoritmo que determine la suma del valor menor y mayor enun grupo de cuatro datos
+
 a=float(input('ingrese el primer valor a ser analizado: '))
 b=float(input('ingrese el segundo valor a ser analizado: '))
 c=float(input('ingrese el tercero valor a ser analizado: '))
