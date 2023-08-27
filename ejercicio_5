@@ -1,4 +1,7 @@
-#ejercicio 5
+#Cierta universidad para liquidar el pago de matrícula de un estudiantele  exige  los  siguientes  datos:  Número  de  inscripción,  Nombres,Patrimonio, Estrato.
+#La universidad cobra un valor constante para cadaestudiante  de  $50.000.  
+#Si  el  patrimonio  es  mayor  que  $2.000.000  y  elestrato  superior  a  3,  se  le  incrementa  un  porcentaje  del  3%  sobre  elpatrimonio
+
 num_inscripcion=int(input("Ingrese su numero de inscripcion correspondiente: "))
 name=input("ingrese su nombre y apellidos: ")
 patrimonio=int(input("ingrese su patrimonio, sin comas ni puntos: "))
